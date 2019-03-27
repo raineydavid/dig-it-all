@@ -1,0 +1,21 @@
+{
+  "name": "bbc-hack-api",
+  "version": "0.0.1",
+  "description": "Serverless API for BBC Hack Day",
+  "main": "handler.js",
+  "scripts": {},
+  "author": "Daniel Clark <daniel.clark@the-times.co.uk>",
+  "repository": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.12.2",
+    "lodash.chunk": "^4.2.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.1.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.4.0",
+    "serverless": "^1.38.0",
+    "serverless-offline": "^4.5.1"
+  }
+}
